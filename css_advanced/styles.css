@@ -1,0 +1,224 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    background-image: url(Object.png);
+    background-repeat: no-repeat;
+    padding: auto;
+}
+header{
+    padding:auto;
+    margin-top: 2em;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    }
+        
+    nav,ul {
+    display: flex;
+    list-style: none;
+    margin-right: 0%;
+            }
+        
+    nav,ul,li {
+    margin-right: 20px;
+        }
+        
+     nav,ul,li, a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.99em;
+    transition: color 0.3s ease-in-out;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;
+        }
+    nav, img{
+        margin-left: 1%;
+    }
+    main > .schooled,.alumni{
+        padding: 3%;
+        margin-top: 10em;
+        width: ;
+
+    }
+    .schooled{
+        display: block;
+        color: white;
+        margin-top: 15%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+        font-family: Source Sans Pro;
+    }
+    .schooled > button{
+        display: block;
+    }
+    .main-bottom{
+        margin-top: 10%;
+    }
+  .schooled > h1{
+    font-size: 6em;
+    width: 55%;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+  }
+  .schooled >.spn{
+    text-align: center;
+    word-spacing: 3em;
+
+  }
+  .schooled > button{
+    margin-top: 3em;
+    background-color: rgb(195, 113, 255);
+    padding: 1.2em;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 0.7em;
+  }
+  div > h2{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+div > h2 > span{
+    color:rgb(195, 113, 255) ;
+    font-weight: bold;
+}   
+.alumni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    margin-top: 1%;
+    padding: auto;
+    color: white;
+}
+.alumni > div{
+    max-width: 20%;
+}
+.alumni > div > p,h3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+                         /*This is where section II starts*/
+.section2{
+    background-color: rgb(195, 113, 255);
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    height: 15em;
+}
+.weather{
+    align-items: center;
+}
+                         /*This is where section III starts*/
+.section3 {
+    display: block;
+    padding: auto;
+}
+.play{
+    display: flex;
+    padding: 5%;
+}
+.profile{
+    display: flex;
+}
+.profile > img{
+    max-width: 40px;
+}
+.profile > h4{
+    margin-left: -5em;
+}
+.icon{
+    display: inline-block;
+}
+.section3 > h2{
+    font-size:2em;
+    align-items: center;
+    margin-left:40%;
+    margin-top: 5%;
+
+}
+
+
+                         /*This is where section VI starts*/
+.section4{
+display: inline-block;
+background-color: rgb(7, 22, 41);
+width: 100%;
+content: inherit;
+}  
+.section4 > .membership, h2, button{
+    padding: 2%;
+    margin-inline: auto;
+    max-width: fit-content;
+}
+.section4 > div{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.section4 > button{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 1em;
+        background-color: rgb(195, 113, 255);
+        padding: 1.2em;
+        border: none;
+        border-radius: 50px;
+        font-weight: bold;
+        color: white;
+        font-size: 0.7em;
+}
+
+
+
+                         /*This is where section V starts*/
+.section5{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding:2.5%;
+}
+.grid-container{
+    display:flex ;
+    padding: 5em;
+    gap: 2em,2em;
+}
+
+                         /*This is where section VI starts*/
+
+.section6{
+    display: block;
+    background-color: rgb(7, 22, 41);
+
+}
+
+.footer-icon{
+    display: flex;
+    padding: 4em;
+    margin-left: 10%;
+}
+.social-media-icons > i{
+border-radius:50px ;
+background-color: white;
+font-size: large;
+}
+.section6 > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(179, 179, 179)
+}
