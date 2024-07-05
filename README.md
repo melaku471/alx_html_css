@@ -26,7 +26,7 @@ CSS3: For the styling and layout of the webpage.
 How to Use
 
 Clone the repository to your local machine:
-git clone https://github.com/yourusername/My_First_Portfolio.git
+git clone https://github.com/melaku471/alx_html_css.git
 
 Navigate to the project directory:
 cd My_First_Portfolio
